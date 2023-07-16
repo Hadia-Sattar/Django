@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ecommerce website</title>
+    <style>
+        body {
+            background-image: url(images/bg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .box {
+            background-color: white;
+            background-position: center;
+            width: 300px;
+            height: 550px;
+            padding: 3px 10px 15px 25px;
+            margin: 130px auto;
+            border-radius: 7px;
+
+            
+        }
+        .box h1 {
+            font-size: 50px;
+            text-align: center;
+            color: black;
+            padding: 0px ;
+            
+        }
+        .box h2 {
+            padding: 0px;
+            text-align: left;
+            color: black;
+            font-size: 21px;
+        }
+        .box input {
+            width: 200px;
+            height: 17px;
+            font-size: 13px;
+            outline: none;
+            color: black;
+            background: transparent;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        
+
+        }
+        .box input:focus {
+            outline: none;
+        }
+        ::placeholder {
+            color: black;
+            font-family: Arial;
+        }
+
+        .btnn {
+            font-size: 15px;
+            padding: 10px 15px;
+            background: transparent;
+            border: none;
+            margin-top: 10px;
+            margin-left: 80px;
+            cursor: pointer;
+        }
+        .btnn a {
+            text-decoration: none;
+            color: blueviolet;
+            font-weight: bold;
+        }
+        .btnn a:hover {
+            color: rgb(75, 11, 136);
+        }
+
+        .box .link {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+            padding-top: 10px;
+            text-align: center;
+        }
+        .box .link a{
+            text-decoration: none;
+            color: rgb(58, 202, 166);
+        }
+
+    </style>
+</head>
+<body> 
+    <div class="box">
+        
+        <form>
+            <h1><strong>Login</strong></h1>
+        <br>
+        <h2><strong>Username</strong></h2>
+        <input type="text" name="username" placeholder="Type your username">
+        <br>
+        <br>
+        <h2><strong>Email address</strong></h2>
+            <input type="text" name="email" placeholder="Type your email address">
+            <br>
+            <br>
+        <h2>Password</h2>
+            <input type="text" name="password" placeholder="Type your password">
+
+            <button class="btnn" type="submit">LOGIN</button>
+        
+            <p class="link">Don't have an account?
+                <br>
+                <a href="#">Sign up</a> Here</a>
+            </p>
+        </form>
+        
+                
+    </div>
+</body>
+
+</html>

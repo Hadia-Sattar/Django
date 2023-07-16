@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign up</title>
+    <style>
+        body {
+            background-image: url(images/bg.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .sign {
+            background-color: white;
+            background-position: center;
+            width: 300px;
+            height: 700px;
+            padding: 2px 10px 15px 25px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 45px;
+            margin-bottom: 45px;
+            border-radius: 7px;
+        }
+        .sign h1 {
+            font-size: 50px;
+            text-align: center;
+            color: black;
+            padding: 0px ;
+            
+        }
+        .sign h2 {
+            padding: 0px;
+            text-align: left;
+            color: black;
+            font-size: 21px;
+        }
+
+        .sign input {
+            width: 200px;
+            height: 17px;
+            font-size: 13px;
+            outline: none;
+            color: black;
+            background: transparent;
+            border-top: none;
+            border-left: none;
+            border-right: none;
+        
+
+        }
+        .sign input:focus {
+            outline: none;
+        }
+        ::placeholder {
+            color: black;
+            font-family: Arial;
+        }
+        .btnn {
+            font-size: 15px;
+            padding: 10px 15px;
+            background: transparent;
+            border: none;
+            margin-top: 10px;
+            margin-left: 80px;
+            cursor: pointer;
+        }
+        .btnn a {
+            text-decoration: none;
+            color: blueviolet;
+            font-weight: bold;
+        }
+        .btnn a:hover {
+            color: rgb(75, 11, 136);
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <div class="sign">
+        
+        <form>
+            <h1><strong>Sign up</strong></h1>
+        
+        <h2><strong>Full Name</strong></h2>
+        <input type="text" name="name" placeholder="Type your full name">
+        <br>
+        <br>
+        <h2><strong>Username</strong></h2>
+        <input type="text" name="username" placeholder="Type your username">
+        <br>
+        <br>
+        <h2><strong>Email address</strong></h2>
+            <input type="text" name="email" placeholder="Type your email address">
+            <br>
+            <br>
+        <h2>Password</h2>
+            <input type="text" name="password" placeholder="Type your password">
+            <br>
+            <br>
+            <h2><strong>Repeat Password</strong></h2>
+            <input type="text" name="repeat password" placeholder="Type your password again">
+             <br>
+             <br>
+        <input type="checkbox" name="policy">
+        <label for="policy">I agree to the terms and conditions</label>
+             <br>
+             <br>
+            <button class="btnn" type="submit">Sign Up</button>
+        
+        </form>
+        
+                
+    </div>
+</body>
+</html>
